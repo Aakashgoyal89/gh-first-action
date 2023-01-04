@@ -1,0 +1,13 @@
+name: multiline_workflow
+on: workflow_dispatch
+jobs:
+  multiline-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: multiline entry
+        run: |
+          echo "first entry"
+          echo "second entry"
+          echo "thirdentry"
+          
+      
